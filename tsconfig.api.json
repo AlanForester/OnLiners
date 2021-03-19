@@ -1,0 +1,13 @@
+{
+    "extends": "./tsconfig.json",
+    "compilerOptions": {
+      "noUnusedLocals": true,
+      "skipLibCheck": true,
+      "outDir": "./out/api",
+      "types": []
+    },
+    "files": [
+      "src/api.ts",
+    ],
+    "exclude": ["**/*.test.ts", "*.test.tsx"]
+}
